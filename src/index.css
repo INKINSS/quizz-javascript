@@ -2,7 +2,13 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-@layer base {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* @layer base {
   :root {
     --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;
@@ -56,7 +62,7 @@
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%
   }
-}
+} */
 /* 
 @layer base {
   * {
