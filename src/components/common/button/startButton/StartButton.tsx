@@ -6,9 +6,15 @@ export const StartButton = () => {
   const fetchQuestions = useQuestionsStore((state) => state.fetchQuestions);
 
   const handleClick = () => {
-    //slint-disable-next-line
     fetchQuestions(LMIT_QUESTIONS);
-  }
+  };
 
-  return <Button onClick={handleClick} className="border border-slate-800 rounded-[4px]" >comenzar</Button>;
+  return (
+    <Button
+      onClick={handleClick}
+      className="border border-slate-800 rounded-[4px]"
+    >
+      comenzar
+    </Button>
+  );
 };
