@@ -13,6 +13,7 @@ const getBackgroundColor = (info: QuestionType, index: number) => {
   // si ya seleccionó pero la respuesta es incorrecta
   if (userSelectedAnswer === index && !isCorrectUserAnswer) return "bg-red-200";
   //si el usuario seleccionó la respuesta incorrecta y la respuesta correcta es otra
+  if (userSelectedAnswer !== index && isCorrectUserAnswer) return "bg-red-200";
   if (index === info.correctAnswer) return "bg-green-200";
   return "bg-transparent";
 };
