@@ -3,10 +3,10 @@ import { Question } from "./ListQuestions";
 
 export const Game = () => {
   const question = useQuestionsStore((state) => state.questions);
-  const crrentQuestion = useQuestionsStore(
+  const currentQuestion = useQuestionsStore(
     (state) => state.currentQuestionIndex
   );
-  const questionInfo = question[crrentQuestion];
+  const questionInfo = question[currentQuestion];
 
   return <Question info={questionInfo} />;
 };

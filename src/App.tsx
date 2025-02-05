@@ -6,8 +6,6 @@ import { Game } from "./components/game/Game.tsx";
 
 function App() {
   const questions = useQuestionsStore((state) => state.questions);
-  console.log(questions);
-
   return (
     <main className="flex flex-col justify-center items-center h-screen">
       <MainHeader />
