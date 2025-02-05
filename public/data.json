@@ -1,364 +1,420 @@
-{
-    "preguntas": [
-      {
-        "id": 1,
-        "pregunta": "¿Qué es JavaScript?",
-        "opciones": [
-          "Un lenguaje de programación",
-          "Un framework de CSS",
-          "Un tipo de base de datos",
-          "Un lenguaje de marcado"
-        ],
-        "respuesta_correcta": "Un lenguaje de programación",
-        "dificultad": "fácil"
-      },
-      {
-        "id": 2,
-        "pregunta": "¿Cuál de los siguientes NO es un tipo de dato en JavaScript?",
-        "opciones": [
-          "String",
-          "Boolean",
-          "Integer",
-          "Object"
-        ],
-        "respuesta_correcta": "Integer",
-        "dificultad": "fácil"
-      },
-      {
-        "id": 3,
-        "pregunta": "¿Qué método se utiliza para imprimir algo en la consola en JavaScript?",
-        "opciones": [
-          "console.log()",
-          "print()",
-          "log.console()",
-          "console.print()"
-        ],
-        "respuesta_correcta": "console.log()",
-        "dificultad": "fácil"
-      },
-      {
-        "id": 4,
-        "pregunta": "¿Qué significa 'NaN' en JavaScript?",
-        "opciones": [
-          "Not a Number",
-          "Null and None",
-          "No Action Needed",
-          "New Array Notation"
-        ],
-        "respuesta_correcta": "Not a Number",
-        "dificultad": "fácil"
-      },
-      {
-        "id": 5,
-        "pregunta": "¿Cuál es el resultado de '2' + '2' en JavaScript?",
-        "opciones": [
-          "4",
-          "22",
-          "NaN",
-          "Error"
-        ],
-        "respuesta_correcta": "22",
-        "dificultad": "fácil"
-      },
-      {
-        "id": 6,
-        "pregunta": "¿Qué es una función en JavaScript?",
-        "opciones": [
-          "Un bloque de código que realiza una tarea específica",
-          "Un tipo de dato",
-          "Un operador lógico",
-          "Una variable global"
-        ],
-        "respuesta_correcta": "Un bloque de código que realiza una tarea específica",
-        "dificultad": "fácil"
-      },
-      {
-        "id": 7,
-        "pregunta": "¿Cuál es la forma correcta de declarar una variable en JavaScript?",
-        "opciones": [
-          "var x = 10;",
-          "variable x = 10;",
-          "x = 10;",
-          "int x = 10;"
-        ],
-        "respuesta_correcta": "var x = 10;",
-        "dificultad": "fácil"
-      },
-      {
-        "id": 8,
-        "pregunta": "¿Qué es el DOM en JavaScript?",
-        "opciones": [
-          "Document Object Model",
-          "Data Object Model",
-          "Document Oriented Model",
-          "Dynamic Object Model"
-        ],
-        "respuesta_correcta": "Document Object Model",
-        "dificultad": "medio"
-      },
-      {
-        "id": 9,
-        "pregunta": "¿Cuál de los siguientes NO es un operador de comparación en JavaScript?",
-        "opciones": [
-          "==",
-          "===",
-          "!=",
-          "=<"
-        ],
-        "respuesta_correcta": "=<",
-        "dificultad": "medio"
-      },
-      {
-        "id": 10,
-        "pregunta": "¿Qué hace el método 'push()' en un array en JavaScript?",
-        "opciones": [
-          "Elimina el último elemento",
-          "Agrega un elemento al final",
-          "Ordena los elementos",
-          "Invierte el orden de los elementos"
-        ],
-        "respuesta_correcta": "Agrega un elemento al final",
-        "dificultad": "medio"
-      },
-      {
-        "id": 11,
-        "pregunta": "¿Qué es un 'callback' en JavaScript?",
-        "opciones": [
-          "Una función que se pasa como argumento a otra función",
-          "Un tipo de bucle",
-          "Un método para manipular strings",
-          "Un tipo de evento"
-        ],
-        "respuesta_correcta": "Una función que se pasa como argumento a otra función",
-        "dificultad": "medio"
-      },
-      {
-        "id": 12,
-        "pregunta": "¿Cuál es el resultado de 'typeof null' en JavaScript?",
-        "opciones": [
-          "object",
-          "null",
-          "undefined",
-          "string"
-        ],
-        "respuesta_correcta": "object",
-        "dificultad": "medio"
-      },
-      {
-        "id": 13,
-        "pregunta": "¿Qué es 'hoisting' en JavaScript?",
-        "opciones": [
-          "El comportamiento de mover las declaraciones al inicio del ámbito",
-          "Un tipo de bucle",
-          "Una forma de manejar errores",
-          "Un método para manipular arrays"
-        ],
-        "respuesta_correcta": "El comportamiento de mover las declaraciones al inicio del ámbito",
-        "dificultad": "medio"
-      },
-      {
-        "id": 14,
-        "pregunta": "¿Cuál es la diferencia entre '==' y '===' en JavaScript?",
-        "opciones": [
-          "'==' compara valor y tipo, '===' solo compara valor",
-          "'==' compara valor, '===' compara valor y tipo",
-          "'==' compara tipo, '===' compara valor",
-          "No hay diferencia"
-        ],
-        "respuesta_correcta": "'==' compara valor, '===' compara valor y tipo",
-        "dificultad": "medio"
-      },
-      {
-        "id": 15,
-        "pregunta": "¿Qué es un 'closure' en JavaScript?",
-        "opciones": [
-          "Una función que tiene acceso a su ámbito externo",
-          "Un tipo de dato",
-          "Un método para manipular arrays",
-          "Un tipo de bucle"
-        ],
-        "respuesta_correcta": "Una función que tiene acceso a su ámbito externo",
-        "dificultad": "difícil"
-      },
-      {
-        "id": 16,
-        "pregunta": "¿Qué es 'this' en JavaScript?",
-        "opciones": [
-          "Una referencia al objeto actual",
-          "Una palabra reservada para declarar variables",
-          "Un tipo de dato",
-          "Un operador lógico"
-        ],
-        "respuesta_correcta": "Una referencia al objeto actual",
-        "dificultad": "difícil"
-      },
-      {
-        "id": 17,
-        "pregunta": "¿Qué es 'event bubbling' en JavaScript?",
-        "opciones": [
-          "La propagación de eventos desde el elemento más interno al más externo",
-          "Un tipo de bucle",
-          "Un método para manipular strings",
-          "Una forma de manejar errores"
-        ],
-        "respuesta_correcta": "La propagación de eventos desde el elemento más interno al más externo",
-        "dificultad": "difícil"
-      },
-      {
-        "id": 18,
-        "pregunta": "¿Qué es 'JSON' en JavaScript?",
-        "opciones": [
-          "JavaScript Object Notation",
-          "JavaScript Oriented Notation",
-          "JavaScript Operator Network",
-          "JavaScript Object Network"
-        ],
-        "respuesta_correcta": "JavaScript Object Notation",
-        "dificultad": "medio"
-      },
-      {
-        "id": 19,
-        "pregunta": "¿Qué hace el método 'map()' en un array en JavaScript?",
-        "opciones": [
-          "Crea un nuevo array con los resultados de aplicar una función a cada elemento",
-          "Filtra los elementos de un array",
-          "Ordena los elementos de un array",
-          "Invierte el orden de los elementos de un array"
-        ],
-        "respuesta_correcta": "Crea un nuevo array con los resultados de aplicar una función a cada elemento",
-        "dificultad": "medio"
-      },
-      {
-        "id": 20,
-        "pregunta": "¿Qué es 'asincronía' en JavaScript?",
-        "opciones": [
-          "La capacidad de ejecutar tareas en segundo plano sin bloquear el hilo principal",
-          "Un tipo de dato",
-          "Un método para manipular arrays",
-          "Un tipo de bucle"
-        ],
-        "respuesta_correcta": "La capacidad de ejecutar tareas en segundo plano sin bloquear el hilo principal",
-        "dificultad": "difícil"
-      },
-      {
-        "id": 21,
-        "pregunta": "¿Qué es una 'promesa' en JavaScript?",
-        "opciones": [
-          "Un objeto que representa un valor que puede estar disponible ahora, en el futuro o nunca",
-          "Un tipo de dato",
-          "Un método para manipular strings",
-          "Un tipo de bucle"
-        ],
-        "respuesta_correcta": "Un objeto que representa un valor que puede estar disponible ahora, en el futuro o nunca",
-        "dificultad": "difícil"
-      },
-      {
-        "id": 22,
-        "pregunta": "¿Qué es 'AJAX' en JavaScript?",
-        "opciones": [
-          "Una técnica para realizar solicitudes asíncronas al servidor",
-          "Un tipo de dato",
-          "Un método para manipular arrays",
-          "Un tipo de bucle"
-        ],
-        "respuesta_correcta": "Una técnica para realizar solicitudes asíncronas al servidor",
-        "dificultad": "medio"
-      },
-      {
-        "id": 23,
-        "pregunta": "¿Qué es 'localStorage' en JavaScript?",
-        "opciones": [
-          "Un mecanismo para almacenar datos en el navegador de forma persistente",
-          "Un tipo de dato",
-          "Un método para manipular strings",
-          "Un tipo de bucle"
-        ],
-        "respuesta_correcta": "Un mecanismo para almacenar datos en el navegador de forma persistente",
-        "dificultad": "medio"
-      },
-      {
-        "id": 24,
-        "pregunta": "¿Qué es 'strict mode' en JavaScript?",
-        "opciones": [
-          "Una forma de escribir código más seguro y con menos errores",
-          "Un tipo de dato",
-          "Un método para manipular arrays",
-          "Un tipo de bucle"
-        ],
-        "respuesta_correcta": "Una forma de escribir código más seguro y con menos errores",
-        "dificultad": "medio"
-      },
-      {
-        "id": 25,
-        "pregunta": "¿Qué es 'event delegation' en JavaScript?",
-        "opciones": [
-          "Una técnica para manejar eventos en elementos hijos a través de un elemento padre",
-          "Un tipo de dato",
-          "Un método para manipular strings",
-          "Un tipo de bucle"
-        ],
-        "respuesta_correcta": "Una técnica para manejar eventos en elementos hijos a través de un elemento padre",
-        "dificultad": "difícil"
-      },
-      {
-        "id": 26,
-        "pregunta": "¿Qué es 'prototype' en JavaScript?",
-        "opciones": [
-          "Un mecanismo para compartir propiedades y métodos entre objetos",
-          "Un tipo de dato",
-          "Un método para manipular arrays",
-          "Un tipo de bucle"
-        ],
-        "respuesta_correcta": "Un mecanismo para compartir propiedades y métodos entre objetos",
-        "dificultad": "difícil"
-      },
-      {
-        "id": 27,
-        "pregunta": "¿Qué es 'async/await' en JavaScript?",
-        "opciones": [
-          "Una forma de manejar operaciones asíncronas de manera más sencilla",
-          "Un tipo de dato",
-          "Un método para manipular strings",
-          "Un tipo de bucle"
-        ],
-        "respuesta_correcta": "Una forma de manejar operaciones asíncronas de manera más sencilla",
-        "dificultad": "difícil"
-      },
-      {
-        "id": 28,
-        "pregunta": "¿Qué es 'destructuring' en JavaScript?",
-        "opciones": [
-          "Una forma de extraer valores de arrays o objetos en variables",
-          "Un tipo de dato",
-          "Un método para manipular strings",
-          "Un tipo de bucle"
-        ],
-        "respuesta_correcta": "Una forma de extraer valores de arrays o objetos en variables",
-        "dificultad": "medio"
-      },
-      {
-        "id": 29,
-        "pregunta": "¿Qué es 'spread operator' en JavaScript?",
-        "opciones": [
-          "Un operador que permite expandir elementos de un array u objeto",
-          "Un tipo de dato",
-          "Un método para manipular strings",
-          "Un tipo de bucle"
-        ],
-        "respuesta_correcta": "Un operador que permite expandir elementos de un array u objeto",
-        "dificultad": "medio"
-      },
-      {
-        "id": 30,
-        "pregunta": "¿Qué es 'arrow function' en JavaScript?",
-        "opciones": [
-          "Una forma más corta de escribir funciones",
-          "Un tipo de dato",
-          "Un método para manipular strings",
-          "Un tipo de bucle"
-        ],
-        "respuesta_correcta": "Una forma más corta de escribir funciones",
-        "dificultad": "medio"
-      }
-    ]
+[
+  {
+    "pregunta": "¿Qué devuelve este código?",
+    "codigo": "typeof NaN",
+    "respuestas": [
+      "number",
+      "NaN",
+      "undefined"
+    ],
+    "dificultad": "intermedio",
+    "respuesta_correcta": "number"
+  },
+  {
+    "pregunta": "¿Cuál es el resultado de este código?",
+    "codigo": "let x = 1; console.log(x++ + ++x);",
+    "respuestas": [
+      "3",
+      "4",
+      "5"
+    ],
+    "dificultad": "intermedio",
+    "respuesta_correcta": "4"
+  },
+  {
+    "pregunta": "¿Qué imprime este código?",
+    "codigo": "console.log([] + []);",
+    "respuestas": [
+      "[]",
+      "''",
+      "undefined"
+    ],
+    "dificultad": "dificil",
+    "respuesta_correcta": "''"
+  },
+  {
+    "pregunta": "¿Qué hace este código?",
+    "codigo": "const arr = [1, 2, 3]; arr[10] = 99; console.log(arr.length);",
+    "respuestas": [
+      "3",
+      "10",
+      "11"
+    ],
+    "dificultad": "intermedio",
+    "respuesta_correcta": "11"
+  },
+  {
+    "pregunta": "¿Qué devuelve este código?",
+    "codigo": "console.log(typeof typeof 1);",
+    "respuestas": [
+      "number",
+      "string",
+      "undefined"
+    ],
+    "dificultad": "dificil",
+    "respuesta_correcta": "string"
+  },
+  {
+    "pregunta": "¿Cuál es el resultado de este código?",
+    "codigo": "console.log(1 < 2 < 3); console.log(3 > 2 > 1);",
+    "respuestas": [
+      "true, true",
+      "true, false",
+      "false, true"
+    ],
+    "dificultad": "dificil",
+    "respuesta_correcta": "true, false"
+  },
+  {
+    "pregunta": "¿Qué imprime este código?",
+    "codigo": "console.log(typeof null === 'object');",
+    "respuestas": [
+      "true",
+      "false",
+      "undefined"
+    ],
+    "dificultad": "intermedio",
+    "respuesta_correcta": "true"
+  },
+  {
+    "pregunta": "¿Qué hace este código?",
+    "codigo": "const a = {}; const b = { key: 'b' }; const c = { key: 'c' }; a[b] = 123; a[c] = 456; console.log(a[b]);",
+    "respuestas": [
+      "123",
+      "456",
+      "undefined"
+    ],
+    "dificultad": "dificil",
+    "respuesta_correcta": "456"
+  },
+  {
+    "pregunta": "¿Qué devuelve este código?",
+    "codigo": "console.log('5' + 3); console.log('5' - 3);",
+    "respuestas": [
+      "53, 2",
+      "8, 2",
+      "53, 8"
+    ],
+    "dificultad": "intermedio",
+    "respuesta_correcta": "53, 2"
+  },
+  {
+    "pregunta": "¿Cuál es el resultado de este código?",
+    "codigo": "console.log([] == ![]);",
+    "respuestas": [
+      "true",
+      "false",
+      "undefined"
+    ],
+    "dificultad": "dificil",
+    "respuesta_correcta": "true"
+  },
+  {
+    "pregunta": "¿Qué imprime este código?",
+    "codigo": "console.log(new String('hello') === 'hello');",
+    "respuestas": [
+      "true",
+      "false",
+      "undefined"
+    ],
+    "dificultad": "intermedio",
+    "respuesta_correcta": "false"
+  },
+  {
+    "pregunta": "¿Qué hace este código?",
+    "codigo": "const arr = [1, 2, 3]; arr.length = 0; console.log(arr);",
+    "respuestas": [
+      "[1, 2, 3]",
+      "[]",
+      "undefined"
+    ],
+    "dificultad": "intermedio",
+    "respuesta_correcta": "[]"
+  },
+  {
+    "pregunta": "¿Qué devuelve este código?",
+    "codigo": "console.log(0.1 + 0.2 === 0.3);",
+    "respuestas": [
+      "true",
+      "false",
+      "undefined"
+    ],
+    "dificultad": "dificil",
+    "respuesta_correcta": "false"
+  },
+  {
+    "pregunta": "¿Cuál es el resultado de este código?",
+    "codigo": "console.log(typeof (() => {}));",
+    "respuestas": [
+      "function",
+      "object",
+      "undefined"
+    ],
+    "dificultad": "intermedio",
+    "respuesta_correcta": "function"
+  },
+  {
+    "pregunta": "¿Qué imprime este código?",
+    "codigo": "console.log(typeof undefined == typeof NULL);",
+    "respuestas": [
+      "true",
+      "false",
+      "undefined"
+    ],
+    "dificultad": "dificil",
+    "respuesta_correcta": "true"
+  },
+  {
+    "pregunta": "¿Qué hace este código?",
+    "codigo": "const a = [1, 2, 3]; const b = a; b.push(4); console.log(a);",
+    "respuestas": [
+      "[1, 2, 3]",
+      "[1, 2, 3, 4]",
+      "undefined"
+    ],
+    "dificultad": "intermedio",
+    "respuesta_correcta": "[1, 2, 3, 4]"
+  },
+  {
+    "pregunta": "¿Qué devuelve este código?",
+    "codigo": "console.log(typeof (() => {}));",
+    "respuestas": [
+      "function",
+      "object",
+      "undefined"
+    ],
+    "dificultad": "intermedio",
+    "respuesta_correcta": "function"
+  },
+  {
+    "pregunta": "¿Cuál es el resultado de este código?",
+    "codigo": "console.log(1 + '2' + '2');",
+    "respuestas": [
+      "122",
+      "32",
+      "14"
+    ],
+    "dificultad": "intermedio",
+    "respuesta_correcta": "122"
+  },
+  {
+    "pregunta": "¿Qué imprime este código?",
+    "codigo": "console.log(typeof NaN === 'number');",
+    "respuestas": [
+      "true",
+      "false",
+      "undefined"
+    ],
+    "dificultad": "intermedio",
+    "respuesta_correcta": "true"
+  },
+  {
+    "pregunta": "¿Qué hace este código?",
+    "codigo": "const a = { x: 1 }; const b = a; b.x = 2; console.log(a.x);",
+    "respuestas": [
+      "1",
+      "2",
+      "undefined"
+    ],
+    "dificultad": "intermedio",
+    "respuesta_correcta": "2"
+  },
+  {
+    "pregunta": "¿Qué devuelve este código?",
+    "codigo": "console.log([] == 0);",
+    "respuestas": [
+      "true",
+      "false",
+      "undefined"
+    ],
+    "dificultad": "dificil",
+    "respuesta_correcta": "true"
+  },
+  {
+    "pregunta": "¿Cuál es el resultado de este código?",
+    "codigo": "console.log('b' + 'a' + + 'a' + 'a');",
+    "respuestas": [
+      "baNaNa",
+      "baaa",
+      "baaNa"
+    ],
+    "dificultad": "dificil",
+    "respuesta_correcta": "baNaNa"
+  },
+  {
+    "pregunta": "¿Qué imprime este código?",
+    "codigo": "console.log(typeof (() => {}));",
+    "respuestas": [
+      "function",
+      "object",
+      "undefined"
+    ],
+    "dificultad": "intermedio",
+    "respuesta_correcta": "function"
+  },
+  {
+    "pregunta": "¿Qué hace este código?",
+    "codigo": "const a = [1, 2, 3]; const b = a.slice(); b.push(4); console.log(a);",
+    "respuestas": [
+      "[1, 2, 3]",
+      "[1, 2, 3, 4]",
+      "undefined"
+    ],
+    "dificultad": "intermedio",
+    "respuesta_correcta": "[1, 2, 3]"
+  },
+  {
+    "pregunta": "¿Qué devuelve este código?",
+    "codigo": "console.log(typeof (() => {}));",
+    "respuestas": [
+      "function",
+      "object",
+      "undefined"
+    ],
+    "dificultad": "intermedio",
+    "respuesta_correcta": "function"
+  },
+  {
+    "pregunta": "¿Cuál es el resultado de este código?",
+    "codigo": "console.log(1 + '2' + '2');",
+    "respuestas": [
+      "122",
+      "32",
+      "14"
+    ],
+    "dificultad": "intermedio",
+    "respuesta_correcta": "122"
+  },
+  {
+    "pregunta": "¿Qué imprime este código?",
+    "codigo": "console.log(typeof NaN === 'number');",
+    "respuestas": [
+      "true",
+      "false",
+      "undefined"
+    ],
+    "dificultad": "intermedio",
+    "respuesta_correcta": "true"
+  },
+  {
+    "pregunta": "¿Qué hace este código?",
+    "codigo": "const a = { x: 1 }; const b = a; b.x = 2; console.log(a.x);",
+    "respuestas": [
+      "1",
+      "2",
+      "undefined"
+    ],
+    "dificultad": "intermedio",
+    "respuesta_correcta": "2"
+  },
+  {
+    "pregunta": "¿Qué devuelve este código?",
+    "codigo": "console.log([] == 0);",
+    "respuestas": [
+      "true",
+      "false",
+      "undefined"
+    ],
+    "dificultad": "dificil",
+    "respuesta_correcta": "true"
+  },
+  {
+    "pregunta": "¿Cuál es el resultado de este código?",
+    "codigo": "console.log('b' + 'a' + + 'a' + 'a');",
+    "respuestas": [
+      "baNaNa",
+      "baaa",
+      "baaNa"
+    ],
+    "dificultad": "dificil",
+    "respuesta_correcta": "baNaNa"
+  },
+  {
+    "pregunta": "¿Qué imprime este código?",
+    "codigo": "console.log(typeof (() => {}));",
+    "respuestas": [
+      "function",
+      "object",
+      "undefined"
+    ],
+    "dificultad": "intermedio",
+    "respuesta_correcta": "function"
+  },
+  {
+    "pregunta": "¿Qué hace este código?",
+    "codigo": "const a = [1, 2, 3]; const b = a.slice(); b.push(4); console.log(a);",
+    "respuestas": [
+      "[1, 2, 3]",
+      "[1, 2, 3, 4]",
+      "undefined"
+    ],
+    "dificultad": "intermedio",
+    "respuesta_correcta": "[1, 2, 3]"
+  },
+  {
+    "pregunta": "¿Qué devuelve este código?",
+    "codigo": "console.log(typeof (() => {}));",
+    "respuestas": [
+      "function",
+      "object",
+      "undefined"
+    ],
+    "dificultad": "intermedio",
+    "respuesta_correcta": "function"
+  },
+  {
+    "pregunta": "¿Cuál es el resultado de este código?",
+    "codigo": "console.log(1 + '2' + '2');",
+    "respuestas": [
+      "122",
+      "32",
+      "14"
+    ],
+    "dificultad": "intermedio",
+    "respuesta_correcta": "122"
+  },
+  {
+    "pregunta": "¿Qué imprime este código?",
+    "codigo": "console.log(typeof NaN === 'number');",
+    "respuestas": [
+      "true",
+      "false",
+      "undefined"
+    ],
+    "dificultad": "intermedio",
+    "respuesta_correcta": "true"
+  },
+  {
+    "pregunta": "¿Qué hace este código?",
+    "codigo": "const a = { x: 1 }; const b = a; b.x = 2; console.log(a.x);",
+    "respuestas": [
+      "1",
+      "2",
+      "undefined"
+    ],
+    "dificultad": "intermedio",
+    "respuesta_correcta": "2"
+  },
+  {
+    "pregunta": "¿Qué devuelve este código?",
+    "codigo": "console.log([] == 0);",
+    "respuestas": [
+      "true",
+      "false",
+      "undefined"
+    ],
+    "dificultad": "dificil",
+    "respuesta_correcta": "true"
+  },
+  {
+    "pregunta": "¿Cuál es el resultado de este código?",
+    "codigo": "console.log('b' + 'a' + + 'a' + 'a');",
+    "respuestas": [
+      "baNaNa",
+      "baaa",
+      "baaNa"
+    ],
+    "dificultad": "dificil",
+    "respuesta_correcta": "baNaNa"
   }
+]
