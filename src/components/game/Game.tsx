@@ -2,6 +2,7 @@ import { useQuestionsStore } from "@/store/Questions";
 import { Question } from "./ListQuestions";
 import { Button } from "../ui/button";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { Footer } from "../footer/Footer";
 
 export const Game = () => {
   const question = useQuestionsStore((state) => state.questions);
@@ -24,6 +25,7 @@ export const Game = () => {
         </Button>
       </div>
       <Question info={questionInfo} />
+      <Footer />
     </>
   );
 };
