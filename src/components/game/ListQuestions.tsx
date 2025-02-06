@@ -10,12 +10,12 @@ const getBackgroundColor = (info: QuestionType, index: number) => {
   if (userSelectedAnswer === undefined) return "transparent";
   // si ya seleccionó y la respuesta es correcta
   if (userSelectedAnswer === index && isCorrectUserAnswer)
-    return "bg-green-200";
+    return "bg-green-300";
   // si ya seleccionó pero la respuesta es incorrecta
-  if (userSelectedAnswer === index && !isCorrectUserAnswer) return "bg-red-200";
+  if (userSelectedAnswer === index && !isCorrectUserAnswer) return "bg-red-300";
   //si el usuario seleccionó la respuesta incorrecta y la respuesta correcta es otra
-  if (userSelectedAnswer !== index && isCorrectUserAnswer) return "bg-red-200";
-  if (index === info.correctAnswer) return "bg-green-200";
+  if (userSelectedAnswer !== index && isCorrectUserAnswer) return "bg-red-300";
+  if (index === info.correctAnswer) return "bg-green-300";
   return "bg-transparent";
 };
 
@@ -30,7 +30,7 @@ export const Question = ({ info }: { info: QuestionType }) => {
   return (
     <Card className="border-none">
 
-        <span className="w-full text-slate-800 text-[1.2rem] font-semibold text-center inline-block">
+        <span className="w-full text-white text-[1.2rem] font-normal text-center inline-block">
           {info.question}
         </span>
       <SyntaxHighlighter
@@ -40,7 +40,7 @@ export const Question = ({ info }: { info: QuestionType }) => {
       >
         {info.code}
       </SyntaxHighlighter>
-      <div className="mt-4">
+      <div className="mt-4 bg-white">
         {info.answers.map((respuesta, index) => (
           <button
             disabled={info.userSelectedAnswer !== undefined}

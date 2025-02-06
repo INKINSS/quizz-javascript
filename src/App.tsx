@@ -7,7 +7,7 @@ import { Game } from "./components/game/Game.tsx";
 function App() {
   const questions = useQuestionsStore((state) => state.questions);
   return (
-    <main className="flex flex-col justify-center items-center h-screen">
+    <main className="flex flex-col bg-slate-900 justify-center items-center h-screen">
       <MainHeader />
       {questions.length === 0 ? <StartButton /> : <Game />}
     </main>
