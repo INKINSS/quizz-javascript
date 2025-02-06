@@ -358,5 +358,845 @@
     ],
     "difficulty": "dificil",
     "correctAnswer": 1
+  },
+  {
+    "id": 31,
+    "question": "¿Qué devuelve este código?",
+    "code": "console.log(typeof 'Hello World');",
+    "answers": [
+      "undefined",
+      "string",
+      "object"
+    ],
+    "difficulty": "facil",
+    "correctAnswer": 1
+  },
+  {
+    "id": 32,
+    "question": "¿Cuál es el resultado de este código?",
+    "code": "console.log(2 + '2');",
+    "answers": [
+      "22",
+      "NaN",
+      "4"
+    ],
+    "difficulty": "facil",
+    "correctAnswer": 0
+  },
+  {
+    "id": 33,
+    "question": "¿Qué imprime este código?",
+    "code": "console.log(Boolean(0));",
+    "answers": [
+      "false",
+      "undefined",
+      "true"
+    ],
+    "difficulty": "facil",
+    "correctAnswer": 0
+  },
+  {
+    "id": 34,
+    "question": "¿Qué hace este código?",
+    "code": "console.log(Math.max(1, 2, 3));",
+    "answers": [
+      "2",
+      "3",
+      "1"
+    ],
+    "difficulty": "facil",
+    "correctAnswer": 1
+  },
+  {
+    "id": 35,
+    "question": "¿Qué devuelve este código?",
+    "code": "console.log(typeof true);",
+    "answers": [
+      "boolean",
+      "number",
+      "string"
+    ],
+    "difficulty": "facil",
+    "correctAnswer": 0
+  },
+  {
+    "id": 36,
+    "question": "¿Cuál es el resultado de este código?",
+    "code": "console.log(10 % 3);",
+    "answers": [
+      "3",
+      "1",
+      "2"
+    ],
+    "difficulty": "facil",
+    "correctAnswer": 1
+  },
+  {
+    "id": 37,
+    "question": "¿Qué imprime este código?",
+    "code": "console.log(typeof []);",
+    "answers": [
+      "array",
+      "undefined",
+      "object"
+    ],
+    "difficulty": "facil",
+    "correctAnswer": 2
+  },
+  {
+    "id": 38,
+    "question": "¿Qué hace este código?",
+    "code": "console.log('Hello'.length);",
+    "answers": [
+      "6",
+      "5",
+      "4"
+    ],
+    "difficulty": "facil",
+    "correctAnswer": 1
+  },
+  {
+    "id": 39,
+    "question": "¿Qué devuelve este código?",
+    "code": "console.log(typeof null);",
+    "answers": [
+      "object",
+      "null",
+      "undefined"
+    ],
+    "difficulty": "facil",
+    "correctAnswer": 0
+  },
+  {
+    "id": 40,
+    "question": "¿Cuál es el resultado de este código?",
+    "code": "console.log(1 == '1');",
+    "answers": [
+      "true",
+      "undefined",
+      "false"
+    ],
+    "difficulty": "facil",
+    "correctAnswer": 0
+  },
+  {
+    "id": 41,
+    "question": "¿Qué imprime este código?",
+    "code": "console.log(typeof function() {});",
+    "answers": [
+      "function",
+      "undefined",
+      "object"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 0
+  },
+  {
+    "id": 42,
+    "question": "¿Qué hace este código?",
+    "code": "console.log([1, 2, 3].map(x => x * 2));",
+    "answers": [
+      "[1, 2, 3]",
+      "[1, 4, 9]",
+      "[2, 4, 6]"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 2
+  },
+  {
+    "id": 43,
+    "question": "¿Qué devuelve este código?",
+    "code": "console.log(typeof new Date());",
+    "answers": [
+      "date",
+      "object",
+      "string"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 1
+  },
+  {
+    "id": 44,
+    "question": "¿Cuál es el resultado de este código?",
+    "code": "console.log('5' * 3);",
+    "answers": [
+      "15",
+      "NaN",
+      "53"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 0
+  },
+  {
+    "id": 45,
+    "question": "¿Qué imprime este código?",
+    "code": "console.log(typeof NaN);",
+    "answers": [
+      "number",
+      "undefined",
+      "NaN"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 0
+  },
+  {
+    "id": 46,
+    "question": "¿Qué hace este código?",
+    "code": "console.log([1, 2, 3].filter(x => x > 1));",
+    "answers": [
+      "[2, 3]",
+      "[1, 2, 3]",
+      "[1]"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 0
+  },
+  {
+    "id": 47,
+    "question": "¿Qué devuelve este código?",
+    "code": "console.log(typeof undefined);",
+    "answers": [
+      "undefined",
+      "null",
+      "object"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 0
+  },
+  {
+    "id": 48,
+    "question": "¿Cuál es el resultado de este código?",
+    "code": "console.log(1 === '1');",
+    "answers": [
+      "undefined",
+      "true",
+      "false"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 2
+  },
+  {
+    "id": 49,
+    "question": "¿Qué imprime este código?",
+    "code": "console.log(typeof {});",
+    "answers": [
+      "object",
+      "undefined",
+      "array"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 0
+  },
+  {
+    "id": 50,
+    "question": "¿Qué hace este código?",
+    "code": "console.log('Hello'.toUpperCase());",
+    "answers": [
+      "hello",
+      "HELLO",
+      "Hello"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 1
+  },
+  {
+    "id": 51,
+    "question": "¿Qué devuelve este código?",
+    "code": "console.log(typeof 42);",
+    "answers": [
+      "object",
+      "number",
+      "string"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 1
+  },
+  {
+    "id": 52,
+    "question": "¿Cuál es el resultado de este código?",
+    "code": "console.log(1 + 2 + '3');",
+    "answers": [
+      "33",
+      "123",
+      "6"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 0
+  },
+  {
+    "id": 53,
+    "question": "¿Qué imprime este código?",
+    "code": "console.log(typeof new String('Hello'));",
+    "answers": [
+      "string",
+      "undefined",
+      "object"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 2
+  },
+  {
+    "id": 54,
+    "question": "¿Qué hace este código?",
+    "code": "console.log([1, 2, 3].reduce((a, b) => a + b));",
+    "answers": [
+      "undefined",
+      "6",
+      "123"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 1
+  },
+  {
+    "id": 55,
+    "question": "¿Qué devuelve este código?",
+    "code": "console.log(typeof Symbol('foo'));",
+    "answers": [
+      "object",
+      "symbol",
+      "string"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 1
+  },
+  {
+    "id": 56,
+    "question": "¿Cuál es el resultado de este código?",
+    "code": "console.log(1 + '2' + 3);",
+    "answers": [
+      "123",
+      "6",
+      "15"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 0
+  },
+  {
+    "id": 57,
+    "question": "¿Qué imprime este código?",
+    "code": "console.log(typeof new Number(42));",
+    "answers": [
+      "undefined",
+      "object",
+      "number"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 1
+  },
+  {
+    "id": 58,
+    "question": "¿Qué hace este código?",
+    "code": "console.log('Hello'.charAt(1));",
+    "answers": [
+      "l",
+      "H",
+      "e"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 2
+  },
+  {
+    "id": 59,
+    "question": "¿Qué devuelve este código?",
+    "code": "console.log(typeof true);",
+    "answers": [
+      "boolean",
+      "number",
+      "string"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 0
+  },
+  {
+    "id": 60,
+    "question": "¿Cuál es el resultado de este código?",
+    "code": "console.log(1 + 2 + '3' + 4);",
+    "answers": [
+      "334",
+      "10",
+      "1234"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 2
+  },
+  {
+    "id": 61,
+    "question": "¿Qué imprime este código?",
+    "code": "console.log(typeof new Boolean(true));",
+    "answers": [
+      "object",
+      "undefined",
+      "boolean"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 0
+  },
+  {
+    "id": 62,
+    "question": "¿Qué hace este código?",
+    "code": "console.log('Hello'.slice(1, 3));",
+    "answers": [
+      "He",
+      "el",
+      "lo"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 1
+  },
+  {
+    "id": 63,
+    "question": "¿Qué devuelve este código?",
+    "code": "console.log(typeof 3.14);",
+    "answers": [
+      "float",
+      "number",
+      "object"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 1
+  },
+  {
+    "id": 64,
+    "question": "¿Cuál es el resultado de este código?",
+    "code": "console.log('1' + 2 + 3);",
+    "answers": [
+      "15",
+      "6",
+      "123"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 2
+  },
+  {
+    "id": 65,
+    "question": "¿Qué imprime este código?",
+    "code": "console.log(typeof new Array());",
+    "answers": [
+      "object",
+      "undefined",
+      "array"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 0
+  },
+  {
+    "id": 66,
+    "question": "¿Qué hace este código?",
+    "code": "console.log('Hello'.substring(1, 3));",
+    "answers": [
+      "lo",
+      "el",
+      "He"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 1
+  },
+  {
+    "id": 67,
+    "question": "¿Qué devuelve este código?",
+    "code": "console.log(typeof {});",
+    "answers": [
+      "undefined",
+      "object",
+      "array"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 1
+  },
+  {
+    "id": 68,
+    "question": "¿Cuál es el resultado de este código?",
+    "code": "console.log(2 + 3 + '4');",
+    "answers": [
+      "234",
+      "54",
+      "9"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 1
+  },
+  {
+    "id": 69,
+    "question": "¿Qué imprime este código?",
+    "code": "console.log(typeof new Object());",
+    "answers": [
+      "undefined",
+      "array",
+      "object"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 2
+  },
+  {
+    "id": 70,
+    "question": "¿Qué hace este código?",
+    "code": "console.log('Hello'.indexOf('e'));",
+    "answers": [
+      "1",
+      "0",
+      "2"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 0
+  },
+  {
+    "id": 71,
+    "question": "¿Qué devuelve este código?",
+    "code": "console.log(typeof []);",
+    "answers": [
+      "object",
+      "undefined",
+      "array"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 0
+  },
+  {
+    "id": 72,
+    "question": "¿Cuál es el resultado de este código?",
+    "code": "console.log('1' + 2 + 3 + 4);",
+    "answers": [
+      "1234",
+      "10",
+      "19"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 0
+  },
+  {
+    "id": 73,
+    "question": "¿Qué imprime este código?",
+    "code": "console.log(typeof new Function());",
+    "answers": [
+      "function",
+      "undefined",
+      "object"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 0
+  },
+  {
+    "id": 74,
+    "question": "¿Qué hace este código?",
+    "code": "console.log('Hello'.lastIndexOf('l'));",
+    "answers": [
+      "4",
+      "3",
+      "2"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 1
+  },
+  {
+    "id": 75,
+    "question": "¿Qué devuelve este código?",
+    "code": "console.log(typeof new RegExp());",
+    "answers": [
+      "undefined",
+      "object",
+      "regexp"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 1
+  },
+  {
+    "id": 76,
+    "question": "¿Cuál es el resultado de este código?",
+    "code": "console.log('1' + 2 + 3 + 4 + 5);",
+    "answers": [
+      "15",
+      "19",
+      "12345"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 2
+  },
+  {
+    "id": 77,
+    "question": "¿Qué imprime este código?",
+    "code": "console.log(typeof new Error());",
+    "answers": [
+      "object",
+      "error",
+      "undefined"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 0
+  },
+  {
+    "id": 78,
+    "question": "¿Qué hace este código?",
+    "code": "console.log('Hello'.split(''));",
+    "answers": [
+      "['Hello']",
+      "['H', 'e', 'l', 'l', 'o']",
+      "Hello"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 1
+  },
+  {
+    "id": 79,
+    "question": "¿Qué devuelve este código?",
+    "code": "console.log(typeof new Map());",
+    "answers": [
+      "object",
+      "map",
+      "undefined"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 0
+  },
+  {
+    "id": 80,
+    "question": "¿Cuál es el resultado de este código?",
+    "code": "console.log('1' + 2 + 3 + 4 + 5 + 6);",
+    "answers": [
+      "19",
+      "21",
+      "123456"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 2
+  },
+  {
+    "id": 81,
+    "question": "¿Qué imprime este código?",
+    "code": "console.log(typeof new Set());",
+    "answers": [
+      "object",
+      "set",
+      "undefined"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 0
+  },
+  {
+    "id": 82,
+    "question": "¿Qué hace este código?",
+    "code": "console.log('Hello'.replace('H', 'J'));",
+    "answers": [
+      "Jello",
+      "Hello",
+      "Jello"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 0
+  },
+  {
+    "id": 83,
+    "question": "¿Qué devuelve este código?",
+    "code": "console.log(typeof new WeakMap());",
+    "answers": [
+      "weakmap",
+      "object",
+      "undefined"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 1
+  },
+  {
+    "id": 84,
+    "question": "¿Cuál es el resultado de este código?",
+    "code": "console.log('1' + 2 + 3 + 4 + 5 + 6 + 7);",
+    "answers": [
+      "28",
+      "19",
+      "1234567"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 2
+  },
+  {
+    "id": 85,
+    "question": "¿Qué imprime este código?",
+    "code": "console.log(typeof new WeakSet());",
+    "answers": [
+      "object",
+      "weakset",
+      "undefined"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 0
+  },
+  {
+    "id": 86,
+    "question": "¿Qué hace este código?",
+    "code": "console.log('Hello'.concat(' World'));",
+    "answers": [
+      "Hello World",
+      "World",
+      "Hello"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 0
+  },
+  {
+    "id": 87,
+    "question": "¿Qué devuelve este código?",
+    "code": "console.log(typeof new Promise(() => {}));",
+    "answers": [
+      "promise",
+      "object",
+      "undefined"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 1
+  },
+  {
+    "id": 88,
+    "question": "¿Cuál es el resultado de este código?",
+    "code": "console.log('1' + 2 + 3 + 4 + 5 + 6 + 7 + 8);",
+    "answers": [
+      "36",
+      "12345678",
+      "19"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 1
+  },
+  {
+    "id": 89,
+    "question": "¿Qué imprime este código?",
+    "code": "console.log(typeof new Proxy({}, {}));",
+    "answers": [
+      "proxy",
+      "object",
+      "undefined"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 1
+  },
+  {
+    "id": 90,
+    "question": "¿Qué hace este código?",
+    "code": "console.log('Hello'.includes('e'));",
+    "answers": [
+      "true",
+      "false",
+      "undefined"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 0
+  },
+  {
+    "id": 91,
+    "question": "¿Qué devuelve este código?",
+    "code": "console.log(typeof new Int8Array());",
+    "answers": [
+      "int8array",
+      "object",
+      "undefined"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 1
+  },
+  {
+    "id": 92,
+    "question": "¿Cuál es el resultado de este código?",
+    "code": "console.log('1' + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9);",
+    "answers": [
+      "45",
+      "123456789",
+      "19"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 1
+  },
+  {
+    "id": 93,
+    "question": "¿Qué imprime este código?",
+    "code": "console.log(typeof new ArrayBuffer());",
+    "answers": [
+      "object",
+      "arraybuffer",
+      "undefined"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 0
+  },
+  {
+    "id": 94,
+    "question": "¿Qué hace este código?",
+    "code": "console.log('Hello'.startsWith('H'));",
+    "answers": [
+      "undefined",
+      "false",
+      "true"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 2
+  },
+  {
+    "id": 95,
+    "question": "¿Qué devuelve este código?",
+    "code": "console.log(typeof new DataView(new ArrayBuffer(1)));",
+    "answers": [
+      "object",
+      "dataview",
+      "undefined"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 0
+  },
+  {
+    "id": 96,
+    "question": "¿Cuál es el resultado de este código?",
+    "code": "console.log('1' + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10);",
+    "answers": [
+      "55",
+      "19",
+      "12345678910"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 2
+  },
+  {
+    "id": 97,
+    "question": "¿Qué imprime este código?",
+    "code": "console.log(typeof new Float32Array());",
+    "answers": [
+      "float32array",
+      "object",
+      "undefined"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 1
+  },
+  {
+    "id": 98,
+    "question": "¿Qué hace este código?",
+    "code": "console.log('Hello'.endsWith('o'));",
+    "answers": [
+      "undefined",
+      "true",
+      "false"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 1
+  },
+  {
+    "id": 99,
+    "question": "¿Qué devuelve este código?",
+    "code": "console.log(typeof new Float64Array());",
+    "answers": [
+      "float64array",
+      "object",
+      "undefined"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 1
+  },
+  {
+    "id": 100,
+    "question": "¿Cuál es el resultado de este código?",
+    "code": "console.log('1' + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11);",
+    "answers": [
+      "1234567891011",
+      "19",
+      "66"
+    ],
+    "difficulty": "intermedio",
+    "correctAnswer": 0
   }
 ]

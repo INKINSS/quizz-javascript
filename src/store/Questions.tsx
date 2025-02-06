@@ -1,5 +1,6 @@
 import { create } from "zustand";
 import { type Question } from "../types";
+import { persist } from "zustand/middleware";
 
 interface State {
   questions: Question[];
@@ -8,9 +9,10 @@ interface State {
   selectAnswer?: (questionId: number, answerIndex: number) => void;
   goNextQuestion?: () => void;
   goPrevQuestion?: () => void;
+  restart?: () => void;
 }
 
-export const useQuestionsStore = create<State>((set, get) => ({
+export const useQuestionsStore = create<State>()(persist((set, get) => ({
   questions: [],
   currentQuestionIndex: 0,
   fetchQuestions: async (limit) => {
@@ -49,4 +51,7 @@ export const useQuestionsStore = create<State>((set, get) => ({
       set({ currentQuestionIndex: prevQuestionIndex });
     }
   },
-}));
+  restart: () => {
+    set({ currentQuestionIndex: 0, questions: [] });
+  }
+}), { name: "questions" }))
