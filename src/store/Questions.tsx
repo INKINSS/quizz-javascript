@@ -19,7 +19,7 @@ export const useQuestionsStore = create<State>()(
       questions: [],
       currentQuestionIndex: 0,
       fetchQuestions: async (limit) => {
-        const response = await fetch("/public/data.json", { mode: "no-cors" });
+        const response = await fetch("/data.json", { mode: "no-cors" });
         const data = await response.json();
         const questions = data.sort(() => Math.random() - 0.5).slice(0, limit);
         set({ questions });
