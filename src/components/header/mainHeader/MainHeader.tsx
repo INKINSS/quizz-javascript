@@ -5,7 +5,7 @@ const MainHeader = () => {
     <header className="flex flex-col justify-center items-center">
       <div className="flex justify-center items-center gap-2">
         <JavascriptLogo />
-        <p className="text-slate-700 text-[2rem]">Quizz Javascript</p>
+        <p className="text-white text-[2rem]">Quizz Javascript</p>
       </div>
     </header>
   );

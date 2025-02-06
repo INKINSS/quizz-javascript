@@ -16,18 +16,18 @@ export const Game = () => {
       <Question info={questionInfo} />
       <div className="flex w-full justify-center items-center gap-x-2">
         <Button
-          className="text-slate-700"
+          className="text-white"
           disabled={currentQuestion === 0}
           onClick={goPrevQuestion}
         >
           <ChevronLeft />
           anterior
         </Button>
-        <span className="font-semibold text-slate-500">
+        <span className="font-semibold text-white">
         {currentQuestion + 1} / {question.length}
       </span>
         <Button
-          className="text-slate-700"
+          className="text-white"
           disabled={currentQuestion >= question.length - 1}
           onClick={goNextQuestion}
         >
