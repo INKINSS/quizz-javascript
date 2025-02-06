@@ -1,7 +1,7 @@
 import { useQuestionsStore } from "@/store/Questions"
 import { Button } from "../ui/button";
 
-export const Footer = () => {
+export const Footer = () => {    
     const questions = useQuestionsStore((state) => state.questions)
     const restart = useQuestionsStore((state) => state.restart)
     let correct = 0;
@@ -29,7 +29,7 @@ export const Footer = () => {
         <div className="flex justify-center mt-4">
             <Button className="border border-slate-800 text-slate-800 font-[1.1rem] rounded-[5px] hover:bg-green-300 hover:text-white hover:border-none transform duration-300" onClick={() => restart && restart()}>reiniciar</Button>
         </div>
-
+        
     </footer>
   )
 }

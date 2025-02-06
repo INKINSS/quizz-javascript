@@ -4,7 +4,7 @@ export interface Question {
     code: string;
     answers: string[];
     correctAnswer: number;
-    dificulty: string;
+    difficulty: string;
     userSelectedAnswer?: number;
     isCorrectUserAnswer?: boolean;
 }
